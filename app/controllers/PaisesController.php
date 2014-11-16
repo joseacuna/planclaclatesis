@@ -20,4 +20,5 @@ class PaisesController extends BaseController {
 		return View::make('hello');
 	}
 
+
 }
