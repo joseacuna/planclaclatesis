@@ -1,6 +1,6 @@
 <?php
 
-class PaisesController extends BaseController {
+class PlanificacionController extends BaseController {
 
 	/*
 	|--------------------------------------------------------------------------
@@ -15,14 +15,8 @@ class PaisesController extends BaseController {
 	|
 	*/
     protected $layout='layouts.maestro';
-
-    public function get_paises(){
-        return $this->layout->content=View::make('paises.listar');
-    }
-
     public function get_add(){
-        return $this->layout->content=View::make('paises.add');
+        return $this->layout->content=View::make('planificacion.add');
     }
-
 
 }
